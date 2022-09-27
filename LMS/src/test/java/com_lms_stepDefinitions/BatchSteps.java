@@ -16,7 +16,7 @@ public class BatchSteps extends LmsBase {
 	LoginPage loginPage;
 	HomePage homePage;
 
-	//@Before(order = 1)
+	@Before(order = 1)
 	public void setUp() throws InterruptedException {
 		System.out.println("****** User is on the browser*************");
 		initialization();
